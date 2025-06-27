@@ -1,4 +1,4 @@
-package TwoPointerBasedProblems;
+package StringDSA.TwoPointerBasedProblems;
 
 public class ReverseAlphabets {
     public static void main(String[] args) {
