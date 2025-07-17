@@ -1,8 +1,8 @@
-package StringDSA.TwoPointerBasedProblems;
+package String.TwoPointerBasedProblems;
 
 public class ReverseAlphabets {
     public static void main(String[] args) {
-        String name = "-abcdhjfkh*";
+        String name = "-abc+dhjf=kh*";
         System.out.println(ReverseLogic(name));
     }
     public static String ReverseLogic(String s){

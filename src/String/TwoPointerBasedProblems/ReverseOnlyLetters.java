@@ -1,8 +1,8 @@
-package StringDSA.TwoPointerBasedProblems;
+package String.TwoPointerBasedProblems;
 
 public class ReverseOnlyLetters {
     public static void main(String[] args) {
-        String input = "a-bC-dEf-ghIj*";
+        String input = "a-bC-dEf-ghIj**";
         String output = reverseOnlyLetters(input);
         System.out.println("Output: " + output);  // Output: j-Ih-gfE-dCba
     }

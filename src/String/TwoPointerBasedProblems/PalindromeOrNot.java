@@ -1,8 +1,8 @@
-package StringDSA.TwoPointerBasedProblems;
+package String.TwoPointerBasedProblems;
 
 public class PalindromeOrNot {
     public static void main(String[] args) {
-        String name = "MALAALAM";
+        String name = "MALAALA*M";
         boolean palindrome = isPalindrome(name);
         System.out.println(palindrome);
     }

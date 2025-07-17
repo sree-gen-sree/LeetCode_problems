@@ -1,4 +1,4 @@
-package StringDSA.TwoPointerAndSlidingWindow;
+package String.TwoPointerAndSlidingWindow;
 
 public class PermutationInString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package StringDSA.TwoPointerBasedProblems;
+package String.TwoPointerBasedProblems;
 
 public class ValidPalindrome2 {
     public static void main(String[] args) {

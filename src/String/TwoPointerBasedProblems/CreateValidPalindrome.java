@@ -1,8 +1,8 @@
-package StringDSA.TwoPointerBasedProblems;
+package String.TwoPointerBasedProblems;
 
 public class CreateValidPalindrome {
     public static void main(String[] args) {
-        String s = "abdefeuhdba";
+        String s = "abdefehudba";
         System.out.println(validPalindrome(s)); // Output: abdefedba
     }
     public static String validPalindrome(String s) {

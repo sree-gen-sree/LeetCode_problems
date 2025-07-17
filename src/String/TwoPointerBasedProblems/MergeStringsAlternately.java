@@ -1,4 +1,4 @@
-package StringDSA.TwoPointerBasedProblems;
+package String.TwoPointerBasedProblems;
 
 public class MergeStringsAlternately {
     public static void main(String[] args) {
@@ -33,9 +33,11 @@ public class MergeStringsAlternately {
 
         while (i < word1.length() || j < word2.length()) {
             if (i < word1.length())
-                merged.append(word1.charAt(i++));
+                merged.append(word1.charAt(i));
+                i++;
             if (j < word2.length())
-                merged.append(word2.charAt(j++));
+                merged.append(word2.charAt(j));
+                j++;
         }
 
         return merged.toString();
