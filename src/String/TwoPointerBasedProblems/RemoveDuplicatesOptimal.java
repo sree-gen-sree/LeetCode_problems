@@ -2,7 +2,7 @@ package String.TwoPointerBasedProblems;
 
 import java.util.Arrays;
 
-public class RemoveDuplicates {
+public class RemoveDuplicatesOptimal {
     public static int removeDuplicatesFromAnArray(int[] nums){
         if(nums.length == 0) return 0;
         int i = 0; //slow pointer
