@@ -1,6 +1,6 @@
 package String.TwoPointerBasedProblems;
 //This solution is applicable if the array is sorted
-
+//https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 import java.util.Arrays;
 public class TwoSumOptimalSolution {
     public static int[] twoSum(int[] numbers, int target) {

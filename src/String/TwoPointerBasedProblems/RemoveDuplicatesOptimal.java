@@ -1,5 +1,6 @@
 package String.TwoPointerBasedProblems;
 
+//https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 import java.util.Arrays;
 
 public class RemoveDuplicatesOptimal {
@@ -16,7 +17,7 @@ public class RemoveDuplicatesOptimal {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,4,5,6,7,8,9};
+        int[] arr = {1,2,3,4,5,4,7,8,9};
         int k = (removeDuplicatesFromAnArray(arr));
         if(k<arr.length) {
             for (int l = k; l < arr.length; l++) {

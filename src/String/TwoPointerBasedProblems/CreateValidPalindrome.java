@@ -2,7 +2,7 @@ package String.TwoPointerBasedProblems;
 
 public class CreateValidPalindrome {
     public static void main(String[] args) {
-        String s = "abdefehudba";
+        String s = "abdeffeudba";
         System.out.println(validPalindrome(s)); // Output: abdefedba
     }
     public static String validPalindrome(String s) {

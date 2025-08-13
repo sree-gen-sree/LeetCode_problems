@@ -1,10 +1,11 @@
 package String.TwoPointerBasedProblems;
 
+//https://leetcode.com/problems/squares-of-a-sorted-array/
 import java.util.Arrays;
 
 public class SortOfSquaresOptimalSolution {
     public static void main(String[] args) {
-        int[] arr = {-4, -1, 0, 3, 10};
+        int[] arr = {-8, -1, 0, 3, 5};
         int[] sortedArray = FindSquares(arr);
         System.out.println(Arrays.toString(sortedArray));
     }
