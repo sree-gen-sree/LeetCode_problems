@@ -1,9 +1,10 @@
 package String.TwoPointerBasedProblems;
 
-public class PalindromeOrNot {
+//https://leetcode.com/problems/valid-palindrome/
+public class PalindromeOrNotOptimal {
     public static void main(String[] args) {
         String name = "MALAALA*M";
-        boolean palindrome = isPalindrome(name);
+        boolean palindrome = isPalindrome(name.toLowerCase());
         System.out.println(palindrome);
     }
     public static boolean isPalindrome(String s) {
