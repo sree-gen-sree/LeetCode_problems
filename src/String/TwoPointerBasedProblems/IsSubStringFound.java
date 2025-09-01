@@ -15,7 +15,7 @@ public class IsSubStringFound {
                 if (s.charAt(i) == t.charAt(j)) {
                     found = true;
                     previousIndex = j + 1;
-                    break; //exixts j loop and go to i
+                    break; //exits j loop and go to i
                 }
             }
             if(!found){
