@@ -1,7 +1,5 @@
 package String.TwoPointerBasedProblems;
 
-import static java.lang.Math.min;
-
 //https://leetcode.com/problems/container-with-most-water/
 public class ContainerWithMostWaterOptimal {
     public static void main(String[] args) {
