@@ -1,8 +1,9 @@
 package String.TwoPointerBasedProblems;
 
+//https://leetcode.com/problems/3sum-closest/
 import java.util.Arrays;
 
-public class ThreeSumClosest {
+public class ThreeSumClosestOptimal {
     public static void main(String[] args) {
         int[] arr = {-1, 2, 1, -4};
         int target = 2;

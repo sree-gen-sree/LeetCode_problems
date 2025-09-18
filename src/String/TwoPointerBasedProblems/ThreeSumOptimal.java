@@ -1,5 +1,6 @@
 package String.TwoPointerBasedProblems;
 
+//https://leetcode.com/problems/3sum/ (SAME SOLUTION AS OF THREESUM
 import java.util.*;
 
 public class ThreeSumOptimal {
