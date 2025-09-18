@@ -14,7 +14,7 @@ public class ContainerWithMostWaterOptimal {
         int r = arr.length-1;
         int maxArea = 0;
         while (l < r){
-            int currArea = min(arr[l], arr[r]) * (r-l);
+            int currArea = Math.min(arr[l], arr[r]) * (r-l);
             maxArea = Math.max(currArea,maxArea);
             if(arr[l]< arr[r]){
                 l++;
