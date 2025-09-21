@@ -10,6 +10,7 @@ public class ReverseStringInAWordOptimal {
     private static String reverseStringInAWord(String s) {
         char[] ch = s.toCharArray();
         int n = ch.length;
+        System.out.println(n);
         int start = 0; // start index of a word
         for (int end = 0; end <= n; end++) {
             // When we hit a space or the end of the string, reverse the word
@@ -22,6 +23,7 @@ public class ReverseStringInAWordOptimal {
     }
     private static void reverse(char[] ch, int left, int right) {
         while (left < right) {
+            System.out.println("HiExecuted");
             char temp = ch[left];
             ch[left] = ch[right];
             ch[right] = temp;

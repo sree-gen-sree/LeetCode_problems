@@ -17,7 +17,7 @@ public class RemoveDuplicatesOptimal {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,4,7,8,9};
+        int[] arr = {0,0,1,1,1,2,2,3,3,4};
         int k = (removeDuplicatesFromAnArray(arr));
         if(k<arr.length) {
             for (int l = k; l < arr.length; l++) {
