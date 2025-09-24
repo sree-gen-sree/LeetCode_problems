@@ -3,10 +3,10 @@ package String.TwoPointerBasedProblems;
 //https://leetcode.com/problems/merge-sorted-array/
 public class MergeTwoSotedArrays {
     public static void main(String[] args) {
-        int[] nums1 = {1, 2, 3, 0, 0, 0};
+        int[] nums1 = {5, 6, 7, 0, 0, 0, 0};
         int m = 3;
-        int[] nums2 = {2, 5, 6};
-        int n = 3;
+        int[] nums2 = {1, 2, 3, 4};
+        int n = 4;
         merge(nums1, m, nums2, n);
         for (int num : nums1) {
             System.out.print(num + " ");

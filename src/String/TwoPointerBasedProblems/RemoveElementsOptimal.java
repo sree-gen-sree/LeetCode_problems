@@ -20,7 +20,7 @@ public class RemoveElementsOptimal {
                 i++;  // move forward
             }
         }
-        return j + 1; // new length
+        return j + 1; // new length which is the last valid index
     }
 
 }
