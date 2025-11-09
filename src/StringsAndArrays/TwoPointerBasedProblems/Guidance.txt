@@ -1,0 +1,16 @@
+When should use two pointer approach?
+*************************************
+
+Arrays/Strings are sorted
+Examples:
+********
+
+Two-sum (sorted)
+Merge two sorted arrays
+Remove duplicates
+Find pair with given sum
+Sliding window problems (left, right pointers)
+
+You must avoid extra space : - Two-pointer is usually O(1) space.
+
+Need linear traversal instead of nested loops : - Saves time from O(n²) → O(n)
