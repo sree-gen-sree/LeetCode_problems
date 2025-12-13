@@ -1,0 +1,15 @@
+When to use Three Pointer
+*************************
+
+Use when:
+
+Problem involves three sorted arrays
+Find common elements from 3 arrays
+Merge 3 sorted lists
+Need to maintain three boundaries or partitions
+Dutch National Flag (low, mid, high → 3 pointers)
+Triplet-based problems
+3-sum pattern (fix 1 pointer, move the other 2)
+
+Want linear O(n) or O(n + m + p) time without extra space
+Usually O(1) space.
