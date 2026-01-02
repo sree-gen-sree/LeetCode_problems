@@ -7,7 +7,6 @@ public class IsSubStringFoundOptimal {
         String s = "abx";
         System.out.println(IsStringFoundInMainString(s, t));
     }
-
     public static boolean IsStringFoundInMainString(String s, String t) {
         int i = 0, j = 0;
         while (i < s.length() && j < t.length()) {
@@ -18,5 +17,4 @@ public class IsSubStringFoundOptimal {
         }
         return i == s.length();
     }
-
 }
