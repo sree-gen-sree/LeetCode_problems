@@ -1,6 +1,5 @@
 package StringsAndArrays.TwoPointerBasedProblems;
 
-import java.beans.PropertyEditorManager;
 import java.util.Arrays;
 
 class RemoveDuplicatesFromSortedArray {
