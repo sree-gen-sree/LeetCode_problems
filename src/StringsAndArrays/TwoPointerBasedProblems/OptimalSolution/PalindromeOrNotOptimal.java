@@ -3,7 +3,7 @@ package StringsAndArrays.TwoPointerBasedProblems.OptimalSolution;
 //https://leetcode.com/problems/valid-palindrome/
 public class PalindromeOrNotOptimal {
     public static void main(String[] args) {
-        String name = "MALAA+A*M";
+        String name = "_MALAA+A*M";
         boolean palindrome = isPalindrome(name.toLowerCase());
         System.out.println(palindrome);
     }

@@ -23,7 +23,6 @@ public class ReverseStringInAWordOptimal {
     }
     private static void reverse(char[] ch, int left, int right) {
         while (left < right) {
-            System.out.println("HiExecuted");
             char temp = ch[left];
             ch[left] = ch[right];
             ch[right] = temp;

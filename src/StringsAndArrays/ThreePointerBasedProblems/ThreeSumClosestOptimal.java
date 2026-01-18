@@ -1,12 +1,12 @@
-package StringsAndArrays.TwoPointerBasedProblems.OptimalSolution;
+package StringsAndArrays.ThreePointerBasedProblems;
 
 //https://leetcode.com/problems/3sum-closest/
 import java.util.Arrays;
 
 public class ThreeSumClosestOptimal {
     public static void main(String[] args) {
-        int[] arr = {-1, 2, 1, -4};
-        int target = 2;
+        int[] arr = {-1, 2, 2, 2, 1, -4};
+        int target = 7;
         int result = threeSumClosest(arr, target);
         System.out.println("Closest sum to " + target + " = " + result);
     }

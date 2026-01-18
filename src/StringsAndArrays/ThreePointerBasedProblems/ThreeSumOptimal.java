@@ -1,4 +1,4 @@
-package StringsAndArrays.TwoPointerBasedProblems.OptimalSolution;
+package StringsAndArrays.ThreePointerBasedProblems;
 
 //https://leetcode.com/problems/3sum/ (SAME SOLUTION AS OF THREESUM
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ThreeSumOptimal {
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 1, 2, -1, -4};
+        int[] nums = {-1, 0, 1, 2, -1, -4, 5};
         System.out.println(threeSum(nums));
     }
     public static List<List<Integer>> threeSum(int[] nums) {

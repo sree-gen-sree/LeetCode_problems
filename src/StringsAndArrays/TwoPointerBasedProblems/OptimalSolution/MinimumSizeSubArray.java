@@ -4,7 +4,7 @@ package StringsAndArrays.TwoPointerBasedProblems.OptimalSolution;
 
 public class MinimumSizeSubArray {
     public static void main(String[] args) {
-        int[] nums = {2,3,1,2,4,3};
+        int[] nums = {7,3,1,2,4,3};
         int target = 7;
         int minLength = minSubArrayLen(target, nums);
         System.out.println(minLength);

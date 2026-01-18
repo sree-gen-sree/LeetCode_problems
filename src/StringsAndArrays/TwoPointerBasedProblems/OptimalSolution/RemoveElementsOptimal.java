@@ -4,7 +4,7 @@ package StringsAndArrays.TwoPointerBasedProblems.OptimalSolution;
 public class RemoveElementsOptimal {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 2, 5, 6};
-        int val = 2;
+        int val = 8;
         int k = removeElement(nums, val);
         System.out.println(k);
     }
